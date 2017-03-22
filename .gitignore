@@ -1,0 +1,16 @@
+jenkins/.**
+jenkins/war/**
+jenkins/plugins/**
+jenkins/copy_reference_file.log
+jenkins/logs/**
+jenkins/queue.xml.bak
+jenkins/jobs/*/builds
+jenkins/jobs/*/workspace
+jenkins/credentials.xml
+jenkins/plugins.txt
+jenkins/secret.key*
+jenkins/secrets/*
+jenkins/updates/*
+jenkins/upgraded
+jenkins/init.groovy.d/*
+jenkins/users/*
