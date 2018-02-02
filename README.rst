@@ -15,3 +15,9 @@ Jenkins
      cat jenkins/secrets/initialAdminPassword
 
 3. Wybierz *Suggested plugins*.
+
+
+Related
+-------
+
+- https://github.com/sheehan/job-dsl-gradle-example
