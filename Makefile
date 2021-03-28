@@ -14,4 +14,5 @@ build_jenkins:
 	docker build -t devops/jenkins -f Dockerfile .
 
 show_me_password:
-	cat jenkins/secrets/initialAdminPassword
+	cat jenkins/secrets/initialAdminPassword; \
+	cp jenkins/secrets/initialAdminPassword .
