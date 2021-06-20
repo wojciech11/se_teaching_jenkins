@@ -1,22 +1,23 @@
 # Jenkins
 
-1. Uruchom jenkins-a:
+1. Zbuduj obraz dockera dla Jenkinsa i uruchom go:
 
    ```
-   make build_jenkins
-   make run_jenkins
+   $ make build_jenkins
+
+   $ make run_jenkins
    ```
 
 2. Otwórz w przeglądarce 127.0.0.1:8080, jeśli zostaniesz poproszony o hasło dla admina, wybierz:
 
    ```
-   make show_me_password
+   $ make show_me_password
+   
    # lub
-   cat jenkins/secrets/initialAdminPassword
+   $ cat jenkins/secrets/initialAdminPassword
    ```
 
 3. Wybierz *Suggested plugins*.
-
 
 ## Related
 
